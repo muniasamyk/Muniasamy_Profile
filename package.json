@@ -1,0 +1,12 @@
+{
+  "name": "muniasamy-portfolio",
+  "version": "1.0.0",
+  "description": "Professional 3D Portfolio for Muniasamy K",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
