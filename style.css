@@ -415,6 +415,10 @@ h3,
         grid-template-columns: 1fr;
         gap: 3.5rem;
     }
+
+    .scroll-indicator {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -435,10 +439,21 @@ h3,
         height: 100vh;
         background: rgba(7, 11, 20, 0.98);
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 100px 3rem;
         transition: 0.5s ease;
-        gap: 2.5rem;
+        gap: 1.5rem;
+    }
+
+    .nav-links li {
+        width: 100%;
+    }
+
+    .nav-links a {
+        font-size: 1.5rem;
+        display: block;
+        padding: 0.5rem 0;
     }
 
     .nav-links.active {
@@ -449,6 +464,7 @@ h3,
         flex-direction: column;
         align-items: stretch;
         width: 100%;
+        gap: 1rem;
     }
 
     .btn {
